@@ -1,0 +1,147 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I am on homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15429315300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user should able to submit form",
+        "description": "",
+        "id": "happy-path;verify-user-should-able-to-submit-form",
+        "after": [
+          {
+            "result": {
+              "duration": 142600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1034722300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on \u0027START\u0027 button",
+            "match": {
+              "location": "HappyPathTest.iClickOnSTARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1612994600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \u0027First Name\u0027 and \u0027Last Name\u0027",
+            "match": {
+              "location": "HappyPathTest.iEnterFirstNameAndLastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9424144500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I upload file",
+            "match": {
+              "location": "HappyPathTest.iUploadFile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6608144300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I draw signature",
+            "match": {
+              "location": "HappyPathTest.iDrawSignature()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2932228300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select date",
+            "match": {
+              "location": "HappyPathTest.iSelectDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3511314900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I answer a security question",
+            "match": {
+              "location": "HappyPathTest.iAnswerASecurityQuestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3569597300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I submit form",
+            "match": {
+              "location": "HappyPathTest.iSubmitForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85721400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am able to submit form successfully",
+            "match": {
+              "location": "HappyPathTest.iAmAbleToSubmitFormSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Happy Path",
+    "description": "",
+    "id": "happy-path",
+    "keyword": "Feature",
+    "uri": "HappyPath.feature"
+  }
+]
